@@ -15,7 +15,7 @@ if (isset($_POST["login"])) {
 
         if ($password == $baris['password']) {
             $_SESSION['id_user'] = $baris['id'];
-            header("location: dashboard.php");
+            header("location: Homepage.html");
         }
     }
 
@@ -39,11 +39,11 @@ if (isset($_POST["login"])) {
     <img class="wave" src="img/wave.png">
     <div class="container">
         <div class="img">
-            <img src="img/bg.svg">
+            
         </div>
         <div class="login-content">
             <form action="index.php" method="post">
-                <img src="img/avatar.svg">
+                <img src="img/chatbot_image.png">
                 <h2 class="title">Welcome</h2>
                 <div class="input-div one">
                     <div class="i">
