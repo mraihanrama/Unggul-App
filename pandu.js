@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const chatBox = document.getElementById("chat-box");
 
     // Replace with your actual Gemini Chatbot API key
-  const API_KEY = "AIzaSyC5YjXmO4FtSBDxGe07Uha4j3I44o9sgE0";
+  const API_KEY = "the api key";
 
   // Replace with the correct Gemini Chatbot API endpoint
   const API_ENDPOINT = "https://api.gemini.com/v1/chatbot"; // (Double-check the version)
